@@ -1,0 +1,4 @@
+upstream backend {
+	include /etc/nginx/lb/*.lb;
+	server 127.0.0.1 backup;
+}
